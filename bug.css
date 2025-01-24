@@ -1,0 +1,1 @@
+The CSS code has an unusual error in its specificity.  The selector `.container p` is overriding the style for `#main-content p` unexpectedly. This is unexpected because the ID selector (`#main-content`) generally has higher specificity than the class selector (`.container`).
