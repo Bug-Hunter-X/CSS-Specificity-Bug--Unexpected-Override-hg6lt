@@ -1,0 +1,1 @@
+This repository demonstrates a subtle CSS specificity bug. The provided `bug.css` file contains an issue where the style for `.container p` overrides the style for `#main-content p`, defying typical specificity rules. The `bugSolution.css` shows how to fix this using more precise selectors or the `!important` flag (although its use should be judicious).
