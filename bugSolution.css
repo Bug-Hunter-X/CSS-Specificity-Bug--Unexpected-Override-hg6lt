@@ -1,0 +1,12 @@
+/* bugSolution.css */
+#main-content p {
+  color: blue;
+}
+.container #main-content p {
+  color: red; /*Only apply red if it's both main-content and within a container*/
+}
+/*Alternative solution using !important (use sparingly):*/
+#main-content p {
+  color: blue !important; /*Forces blue, but can lead to specificity conflicts*/
+}
+/*Additional fixes that may be required: Check for other selectors, and ensure that the styles are applied to the correct elements according to DOM structure */
